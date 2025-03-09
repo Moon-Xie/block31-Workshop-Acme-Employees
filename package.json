@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start:dev": "nodemon index.js",
     "test": "test"
   },
   "author": "abi",
@@ -13,7 +13,9 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pg": "^8.13.3",
+    "pq": "^0.0.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
